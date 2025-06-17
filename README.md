@@ -25,9 +25,8 @@ brain_tumor_segmentation/
 │
 ├── model_build.py          # U-Net model definition
 ├── train_model.py          # Training loop and augmentation
-├── predict_image.py        # Predict and visualize on test image
+├── test_model.py        # Predict and visualize on test image
 ├── utils.py                # Helper functions for loading, preprocessing, and metrics
-├── evaluate_model.ipynb    # Model evaluation and visualization
-├── requirements.txt        # Python dependencies
+├── evaluate_model.ipynb    # Model evaluation and visualization        
 ├── README.md
 ```
