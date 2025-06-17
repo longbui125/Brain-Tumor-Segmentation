@@ -14,29 +14,20 @@ Albumentations (for image augmentation)
 Matplotlib
 jupyter Notebook (for training/evaluation)
 
-# Project Structure
+## Project Structure
 brain_tumor_segmentation/
 
+```
 ├── data/
-
 │   ├── train images/       # Raw MRI brain images for training
-
 │   ├── train masks/        # Ground truth masks
-
 │   └── test images/        # Test images for prediction
-
 │
-
 ├── model_build.py          # U-Net model definition
-
 ├── train_model.py          # Training loop and augmentation
-
 ├── predict_image.py        # Predict and visualize on test image
-
 ├── utils.py                # Helper functions for loading, preprocessing, and metrics
-
 ├── evaluate_model.ipynb    # Model evaluation and visualization
-
 ├── requirements.txt        # Python dependencies
-
 ├── README.md
+```
