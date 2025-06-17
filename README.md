@@ -6,13 +6,13 @@ This project applies a U-Net-based Convolutional Neural Network for semantic seg
 The model is trained to generate precise binary masks highlighting tumor regions. It supports both training and inference pipelines, with evaluation metrics and visualization.
 
 ## Tech Stack
-Python 3.10
-TensorFlow / Keras
-OpenCV
-NumPy
-Albumentations (for image augmentation)
-Matplotlib
-jupyter Notebook (for training/evaluation)
+- Python 3.10
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Albumentations (for image augmentation)
+- Matplotlib
+- jupyter Notebook (for training/evaluation)
 
 ## Project Structure
 brain_tumor_segmentation/
